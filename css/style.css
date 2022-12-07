@@ -30,15 +30,17 @@ section
 img
 {
 	max-width:50%;
+}
+.box
+{
 	filter:grayscale(100%);
 }
 
 /*  IMAGE HOVER  */
-img:hover
+.box:hover
 {
-	filter:grayscale(1%);
+	filter:none;
 	cursor:pointer;
 	transform:scale(1.5,1.5);
-	transition-delay:1s;
-    transition-duration:1s;	
+	transition:all 1s;
 }
